@@ -1,0 +1,6 @@
+{
+  "name": "DrishtiEval - UPSC & BPSC Mains AI Evaluator",
+  "description": "Multi-pass AI evaluation engine for UPSC IAS and BPSC CSE Mains descriptive papers with sentence-by-sentence review, rubric marks, vocabulary upgrades, and topper model answers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

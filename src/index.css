@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-serif: 'Source Serif 4', Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* Custom scrollbars and civil services ruled paper lines for answer booklet */
+.ruled-paper {
+  background-color: #fbfbf9;
+  background-image: linear-gradient(#e7e5e4 1px, transparent 1px);
+  background-size: 100% 2.25rem;
+  line-height: 2.25rem;
+}
+
+.margin-left-red {
+  border-left: 2px solid rgba(220, 38, 38, 0.35);
+}
+
+.margin-right-red {
+  border-right: 2px solid rgba(220, 38, 38, 0.35);
+}
